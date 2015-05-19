@@ -27,12 +27,6 @@ The core templates are written in Twitter Bootstrap syntax and included FontAwes
 Use composer to install this plugin.
 Add the following repository and requirement to your composer.json:
 
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/fheider/cakephp-datatables"
-        }
-    ],    
     "require": {
         "fheider/cakephp-datatables": "dev-master"
     }
