@@ -1,0 +1,38 @@
+{
+    "name": "fheider/cakephp-datatables",
+    "description": "Use jQuery dataTables for CakePHP 3",
+    "homepage": "https://github.com/fheider/cakephp-datatables",
+    "type": "cakephp-plugin",
+    "keywords": ["cakephp", "datatables"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Heider",
+            "homepage": "https://github.com/fheider",
+            "role": "Author"
+        }
+    ],
+    "support": {
+      "issues": "https://github.com/fheider/cakephp-datatables/issues",
+      "source": "https://github.com/fheider/cakephp-datatables"
+    },
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+    },
+    "suggest": {
+        "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
+        "cakephp/cakephp-codesniffer": "Allows to check the code against the coding standards used in CakePHP."
+    },
+    "autoload": {
+        "psr-4": {
+            "DataTables\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DataTables\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
