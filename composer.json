@@ -13,12 +13,12 @@
         }
     ],
     "support": {
-      "issues": "https://github.com/fheider/cakephp-datatables/issues",
-      "source": "https://github.com/fheider/cakephp-datatables"
+		"issues": "https://github.com/fheider/cakephp-datatables/issues",
+		"source": "https://github.com/fheider/cakephp-datatables"
     },
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "~3.0",
+        "cakephp/cakephp": "~3.0"
     },
     "suggest": {
         "phpunit/phpunit": "Allows automated tests to be run without system-wide install.",
