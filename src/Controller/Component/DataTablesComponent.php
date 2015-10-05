@@ -141,8 +141,8 @@ class DataTablesComponent extends Component
 
     private function _addCondition($column, $value)
     {
-        $conditions = $this->config('conditions');
-        $matching = $this->config('matching');
+        $conditions = [];
+        $matching = [];
 
         list($association, $field) = explode('.', $column);
 
