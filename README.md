@@ -125,7 +125,7 @@ The options are exaxt the options you get in the dataTables reference (https://d
 
     $this->DataTables->init([
         'ajax' => [
-            'url' => $this->Html->url(['action' => 'index']),
+            'url' => Router::url(['action' => 'index']),
         ],
         'deferLoading' => $recordsTotal,
         'delay' => 600,
